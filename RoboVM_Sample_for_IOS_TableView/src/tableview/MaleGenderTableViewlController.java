@@ -21,7 +21,7 @@ public class MaleGenderTableViewlController extends UITableViewController {
 		int row = (int) NSIndexPathExtensions.getRow(indexPath);
 		UITableViewCell cell = null;
 		if (row == 0)
-        {  //Linkware (Backlink to http://www.icons-land.com required)
+        {  
 			NSURL url = new NSURL(
 					"http://icons.iconarchive.com/icons/icons-land/vista-people/64/Occupations-Bartender-Male-Dark-icon.png");
 			cell = AddressbookUtils.setContentOfCell("Jens Philip", url, "Salzstr. 17", "jens.philip@jensp.de");
@@ -37,7 +37,6 @@ public class MaleGenderTableViewlController extends UITableViewController {
 			cell = AddressbookUtils.setContentOfCell("Hieronimus Adams", url, "Sonnenstr. 54", "hadams@gmail.com");
 		}
 		else if (row == 3){
-			//(Backlink to http://www.icons-land.com required)
 			NSURL url = new NSURL(
 					"http://icons.iconarchive.com/icons/icons-land/vista-people/64/Historical-Cowboy-icon.png");
 			cell = AddressbookUtils.setContentOfCell("Cowboy Jan", url, "Historical Ring 7", "cowboy@gmail.com");
