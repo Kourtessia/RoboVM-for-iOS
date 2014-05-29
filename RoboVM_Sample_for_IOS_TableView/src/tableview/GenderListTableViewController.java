@@ -13,7 +13,6 @@ import org.robovm.apple.uikit.UIImageView;
 import org.robovm.apple.uikit.UILabel;
 import org.robovm.apple.uikit.UITableView;
 import org.robovm.apple.uikit.UITableViewCell;
-import org.robovm.apple.uikit.UITableViewCellEditingStyle;
 import org.robovm.apple.uikit.UITableViewController;
 import org.robovm.objc.ObjCClass;
 import org.robovm.rt.bro.annotation.MachineSizedFloat;
