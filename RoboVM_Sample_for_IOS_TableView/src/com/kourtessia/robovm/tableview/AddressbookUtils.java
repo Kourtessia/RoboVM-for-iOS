@@ -1,4 +1,4 @@
-package org.robovm.tableview;
+package com.kourtessia.robovm.tableview;
 
 import org.robovm.apple.coregraphics.CGRect;
 import org.robovm.apple.foundation.NSData;

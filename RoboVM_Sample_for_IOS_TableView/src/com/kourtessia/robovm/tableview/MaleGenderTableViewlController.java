@@ -1,4 +1,4 @@
-package org.robovm.tableview;
+package com.kourtessia.robovm.tableview;
 import org.robovm.apple.foundation.NSIndexPath;
 import org.robovm.apple.foundation.NSURL;
 import org.robovm.apple.uikit.NSIndexPathExtensions;
