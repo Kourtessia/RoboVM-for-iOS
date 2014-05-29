@@ -1,4 +1,4 @@
-package com.kourtessia.robovm.tableview;
+package tableview;
 
 import org.robovm.apple.foundation.NSAutoreleasePool;
 import org.robovm.apple.foundation.NSDictionary;

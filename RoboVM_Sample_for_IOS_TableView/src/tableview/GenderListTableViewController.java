@@ -1,4 +1,4 @@
-package com.kourtessia.robovm.tableview;
+package tableview;
 
 import java.util.ArrayList;
 import java.util.List;
