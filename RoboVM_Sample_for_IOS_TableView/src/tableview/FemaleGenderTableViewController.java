@@ -18,18 +18,16 @@ public class FemaleGenderTableViewController extends UITableViewController {
 	public UITableViewCell getRowCell(UITableView tableView,
 			NSIndexPath indexPath) {
 
-		// IMG Source:
+		// IMG Sources:
 		// http://www.iconarchive.com/show/browser-girl-icons-by-iloveicons.ru/browser-girl-firefox-icon.html
-
+		// Linkware http://www.icons-land.com
 		int row = (int) NSIndexPathExtensions.getRow(indexPath);
 		UITableViewCell cell = null;
-		if (row == 0) { // Linkware (Backlink to http://www.icons-land.com
-						// required)
+		if (row == 0) {
 			NSURL url = new NSURL("http://icons.iconarchive.com/icons/iloveicons.ru/browser-girl/64/browser-girl-internet-explorer-icon.png");
 			cell = AddressbookUtils.setContentOfCell("Emilia Hartman", url,
 					"Sendlinger Tor Platz 3", "emi@yahoo.de");
 		} else if (row == 1) {
-			//Linkware (Backlink to http://www.icons-land.com required)
 			NSURL url = new NSURL("http://icons.iconarchive.com/icons/icons-land/vista-people/64/Medical-Nurse-Female-Light-icon.png");
 			cell = AddressbookUtils.setContentOfCell("Nicole Schwarz", url,
 					"Salzstr. 81", "nicole.schwarz@gmx.de");
@@ -38,7 +36,6 @@ public class FemaleGenderTableViewController extends UITableViewController {
 			cell = AddressbookUtils.setContentOfCell("Klara Cynt",
 					url, "Daglfingerstr. 14", "klara.cynt@gmail.com");
 		} else if (row == 3) {
-			// (Backlink to http://www.icons-land.com required)
 			NSURL url = new NSURL("http://icons.iconarchive.com/icons/icons-land/vista-people/64/Occupations-Actor-Female-Light-icon.png");
 			cell = AddressbookUtils.setContentOfCell("Lisa Butterfly", url,
 					"Marienkäferstr. 53", "lisa.butterfly@gmail.com");
