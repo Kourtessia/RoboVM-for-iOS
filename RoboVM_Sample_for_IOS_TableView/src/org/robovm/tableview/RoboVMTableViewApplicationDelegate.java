@@ -22,7 +22,7 @@ public class RoboVMTableViewApplicationDelegate extends
 		
 		window = new UIWindow(UIScreen.getMainScreen().getBounds());
 
-		MobileAppsListViewController mobileAppsListViewController = new MobileAppsListViewController();
+		GenderListTableViewController mobileAppsListViewController = new GenderListTableViewController();
 		UINavigationController navigationController = new UINavigationController(mobileAppsListViewController);
 		navigationController.addStrongRef(mobileAppsListViewController);
 		navigationController.setDelegate(new UINavigationControllerDelegateAdapter() {});
