@@ -29,7 +29,6 @@ public class GenderListTableViewController extends UITableViewController {
 			gender = new ArrayList<String>();
 			gender.add("female"); 
 			gender.add("male"); 
-			gender.add("child"); 
 		}
 		return gender;
 	}
