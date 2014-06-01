@@ -9,7 +9,7 @@ import org.robovm.rt.bro.annotation.MachineSizedFloat;
 import org.robovm.rt.bro.annotation.MachineSizedSInt;
 
 
-public class MaleGenderTableViewlController extends UITableViewController {
+public class MaleGenderTableViewController extends UITableViewController {
 
 	public long getNumberOfRowsInSection(UITableView tableView, @MachineSizedSInt long section){
 		return 5;
