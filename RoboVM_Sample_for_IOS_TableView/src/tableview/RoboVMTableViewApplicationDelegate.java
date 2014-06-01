@@ -22,9 +22,9 @@ public class RoboVMTableViewApplicationDelegate extends
 		
 		window = new UIWindow(UIScreen.getMainScreen().getBounds());
 
-		GenderListTableViewController mobileAppsListViewController = new GenderListTableViewController();
-		UINavigationController navigationController = new UINavigationController(mobileAppsListViewController);
-		navigationController.addStrongRef(mobileAppsListViewController);
+		GenderListTableViewController genderListTableViewController = new GenderListTableViewController();
+		UINavigationController navigationController = new UINavigationController(genderListTableViewController);
+		navigationController.addStrongRef(genderListTableViewController);
 		navigationController.setDelegate(new UINavigationControllerDelegateAdapter() {});
 		window.setRootViewController(navigationController);
 		window.setBackgroundColor(UIColor.colorWhite());
