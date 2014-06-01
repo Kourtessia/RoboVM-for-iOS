@@ -98,7 +98,7 @@ public class GenderListTableViewController extends UITableViewController {
 		}
 		if (text.equals("male"))
         {
-			MaleGenderTableViewController maleGenderTableViewlController = new MaleGenderTableViewlController();
+			MaleGenderTableViewController maleGenderTableViewlController = new MaleGenderTableViewController();
 			willSelectCell(maleGenderTableViewlController, "male") ;
         }
 	}
