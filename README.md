@@ -3,6 +3,7 @@ RoboVM_Sample_for_IOS_TableView
 
 Contacts are displayed in a table view. 
 
+![ScreenShot](https://github.com/Kourtessia/RoboVM-for-iOS/blob/master/RoboVM_Sample_for_IOS_TableView/images/RoboVM_deviceiOS8.png?raw=true) 
 ![ScreenShot](https://github.com/Kourtessia/RoboVM-for-iOS/blob/master/RoboVM_Sample_for_IOS_TableView/images/RoboVM_Addressbook.png?raw=true) &nbsp; &nbsp; &nbsp; &nbsp;
 ![ScreenShot](https://github.com/Kourtessia/RoboVM-for-iOS/blob/master/RoboVM_Sample_for_IOS_TableView/images/RoboVM_male_contacts.png?raw=true) 
 <br/><br/>
